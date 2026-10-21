@@ -1,0 +1,130 @@
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 10px rgba(238, 156, 167, 0.2);
+    z-index: 1000;
+    box-sizing: border-box;
+    border-bottom: 2.5px dashed #ffb6c1;
+}
+
+.navbar a, .nav-btn {
+    text-decoration: none;
+    color: #d63384;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #fff0f5;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover, .nav-btn:hover {
+    background-color: #ff758c;
+    color: #ffffff;
+}
+
+.time-banner {
+    background-color: #fff0f5;          
+    color: #b56576;                     
+    font-family: 'VT323', monospace;     
+    font-size: 3rem;                 
+    letter-spacing: 1.5px;            
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-align: center;
+    border-bottom: 2.5px dashed #ffb6c1;
+}
+
+#live-time {
+    color: #d63384;                    
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+    color: #4a3b4c;
+    margin: 0;
+    padding: 20px;
+    display: block;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    margin: 0px auto 40px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(238, 156, 167, 0.4);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #d63384;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+small {
+    color: #b56576;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.card {
+    background: #fff0f3;
+    border-left: 5px solid #ff758c;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+h2 {
+    color: #c9184a;
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.6;
+    color: #59405c;
+}
+
+a {
+    color: #ff477e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.project-image {
+    width: 100%;         
+    max-width: 400px;     
+    height: auto;         
+    border-radius: 10px;  
+    display: block;
+    margin: 15px auto;    
+}
